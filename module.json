@@ -1,0 +1,27 @@
+{
+  "id": "atlasmoment",
+  "title": "Transport Actors: Spacecraft & Vehicles",
+  "description": "Adds spacecraft and vehicle actor sub-types that mirror characters.",
+  "version": "0.1.0",
+  "authors": [
+    { "name": "Vlad the Wizard" }
+  ],
+  "compatibility": { "minimum": 11, "verified": 12 },
+  "relationships": {
+    "systems": [
+      { "id": "dnd5e", "type": "supported" }
+    ]
+  },
+  "esmodules": ["scripts/main.mjs"],
+  "documentTypes": {
+    "Actor": {
+      "spacecraft": {},
+      "vehicle": {}
+    }
+  },
+  "flags": {},
+  "manifest": "https://raw.githubusercontent.com/Harrier69/my-transport-module/main/module.json",
+  "download": "https://github.com/Harrier69/atlasmoment/archive/refs/tags/v0.1.0.zip",
+  "readme": "README.md",
+  "license": "LICENSE"
+}
